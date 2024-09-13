@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -39,7 +39,7 @@ widescags<- calc_scags_wide(exampledata_wide, scags=c("clumpy2", "convex", "stri
 head(widescags, 4) %>%
   knitr::kable(digits=4, align="c")
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  library(GGally)
 #  library(plotly)
 #  
